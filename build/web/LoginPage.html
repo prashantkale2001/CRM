@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+    </script>  
+    <style type="text/css"> 
+    	body{
+            background-image: url("pics/2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+    	.brandname {
+            padding: 10px;
+            background:linear-gradient(to right, #1e3c72, #2a5298); /* Blue gradient */
+           color: #f0f8ff; /* White text */
+           text-align: center;
+            border-bottom: 3px solid #0056b3; /* Darker border for definition */
+        }
+        h2 {
+           color: #28a745; /* Emerald Green */
+         font-weight: bold;
+         text-transform: uppercase; /* Optional for emphasis */
+         margin-bottom: 20px; /* Space below the heading */
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+
+    	.formcontainer{
+    		 width: 40%;
+             padding: 20px; /* Add some padding for better spacing */
+             margin-left:40%; /* Center the form */ 
+             background-color: rgba(255, 255, 255, 0.1); /* White with 80% opacity */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+           border-radius: 8px; /* Rounded corners */
+          backdrop-filter: blur(10px); /* Adds a frosted glass effect */
+          /*height: 100px;*/
+          
+    	}
+
+    </style>
+	
+</head>
+<body> 
+
+   <div class="jumbotron brandname">
+   	  <h2>EduMatrix Academic CRM</h2> 
+</div> 
+  <div class="container formcontainer well">
+  	<form method="post" action="UserRegistration.jsp"> 
+  		  <h2 class="text-center">Login Form</h2>
+  		  <div class="form-group">
+  		  <input type="text" name="uname" placeholder="Enter UserName" class="form-control">
+  		</div>
+  		<div class="form-group">
+  		  <input type="text" name="pass" placeholder="Enter Password" class="form-control">
+  		</div> 
+
+  		<div class="form-group">
+  			<button type="submit" class="btn btn-success">Submit</button>
+  			<button type="reset" class="btn btn-danger">Reset</button>
+
+  		</div>
+
+
+  	</form>
+
+
+  </div>
+
+
+</body>
+</html>
